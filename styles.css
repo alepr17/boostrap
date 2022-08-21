@@ -1,0 +1,25 @@
+main{
+    background-image: url(img/fondoindex.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.texto{
+    padding: 40px;
+}
+.cubitos1{
+    background-image: url(/img/fondo1.jpg);
+    background-size: cover;
+}
+.cubitos2{
+    background-image: url(/img/fondo2.jpg);
+    background-size: cover;
+}
+.cubitos3{
+    background-image: url(/img/fondo3.jpg);
+    background-size: cover;
+}
+.section{
+    background-image: url(/img/image.jpg);
+    background-size: cover;
+}
