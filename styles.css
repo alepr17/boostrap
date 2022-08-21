@@ -23,3 +23,10 @@ main{
     background-image: url(/img/image.jpg);
     background-size: cover;
 }
+.aside{
+    background-image: url(/img/image.jpg);
+    background-size: cover;
+}
+img{
+    width: 100px;
+}
