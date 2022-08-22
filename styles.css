@@ -1,8 +1,8 @@
-main{
+/* main{
     background-image: url(img/fondoindex.jpg);
     background-size: cover;
     color: #fff;
-}
+} */
 
 .texto{
     padding: 40px;
@@ -19,14 +19,22 @@ main{
     background-image: url(/img/fondo3.jpg);
     background-size: cover;
 }
-.section{
+/* .section{
     background-image: url(/img/image.jpg);
     background-size: cover;
-}
-.aside{
+} */
+/* .aside{
     background-image: url(/img/image.jpg);
     background-size: cover;
-}
+} */
 img{
     width: 100px;
 }
+#body{
+    background-image: url(/img/image.jpg);
+    background-size: cover;
+}
+/* .aside-servicios{
+    width: 60%;
+    margin: auto;
+} */
