@@ -50,12 +50,12 @@ a{
 .sub-hover:hover{
     border-bottom: 1px solid #fff;
 }
-.card:hover{
+.cards:hover{
     box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.2);
     cursor: pointer;
     transition: ease .5s;
 }
-.card{
+.cards{
     transition: ease .5s;
 }
 @keyframes animacion {
@@ -67,7 +67,7 @@ a{
       right: 0%
     }
   }
-.card{
+.cards{
     animation-name: animacion;
     animation-duration: 1s;
 }
