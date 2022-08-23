@@ -21,7 +21,23 @@ img{
     width: 100px;
 }
 #body{
-    background-image: url(./img/image.jpg);
+    background-image: url(./img/image2.jpg);
+    background-size: cover;
+}
+#body-contacto{
+    background-image: url(./img/fondoindex.jpg);
+    background-size: cover;
+}
+#body-servicios{
+    background-image: url(./img/agustin-fernandez-m21YynrKdsw-unsplash.jpg);
+    background-size: cover;
+}
+#body-tienda{
+    background-image: url(./img/photo-1605497788044-5a32c7078486.avif);
+    background-size: cover;
+}
+#body-nosotros{
+    background-image: url(./img/imgcontact.jpg);
     background-size: cover;
 }
 a{
