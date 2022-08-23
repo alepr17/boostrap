@@ -1,3 +1,6 @@
+.logo{
+    font-family: 'Bilbo Swash Caps', cursive;
+}
 .texto{
     padding: 40px;
 }
@@ -24,4 +27,35 @@ img{
 a{
     color: #000;
     text-decoration: none;
+}
+
+/**************** ANIMACIONES *************/
+
+.sub-hover:hover{
+    border-bottom: 1px solid #fff;
+}
+.card:hover{
+    box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: ease .5s;
+}
+.card{
+    transition: ease .5s;
+}
+@keyframes animacion {
+  
+    0%{
+      right: 100%
+    }
+    100%{
+      right: 0%
+    }
+  }
+.card{
+    animation-name: animacion;
+    animation-duration: 1s;
+}
+.form{
+    animation-name: animacion;
+    animation-duration: 2s;
 }
