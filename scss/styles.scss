@@ -1,3 +1,6 @@
+$backgroundcubierto: cover;
+
+
 .logo{
     font-family: 'Bilbo Swash Caps', cursive;
 }
@@ -6,38 +9,38 @@
 }
 .cubitos1{
     background-image: url(../img/fondo1.jpg);
-    background-size: cover;
+    background-size: $backgroundcubierto;
 }
 .cubitos2{
     background-image: url(../img/fondo2.jpg);
-    background-size: cover;
+    background-size: $backgroundcubierto;
 }
 .cubitos3{
     background-image: url(../img/fondo3.jpg);
-    background-size: cover;
+    background-size: $backgroundcubierto;
 }
 img{
     width: 100px;
 }
 #body{
     background-image: url(../img/image2.jpg);
-    background-size: cover;
+    background-size: $backgroundcubierto;
 }
 #body-contacto{
     background-image: url(../img/fondoindex.jpg);
-    background-size: cover;
+    background-size: $backgroundcubierto;
 }
 #body-servicios{
     background-image: url(../img/agustin-fernandez-m21YynrKdsw-unsplash.jpg);
-    background-size: cover;
+    background-size: $backgroundcubierto;
 }
 #body-tienda{
     background-image: url(../img/photo-1605497788044-5a32c7078486.avif);
-    background-size: cover;
+    background-size: $backgroundcubierto;
 }
 #body-nosotros{
     background-image: url(../img/imageoscurecida.jpg);
-    background-size: cover;
+    background-size: $backgroundcubierto;
 }
 a{
     color: #000;
