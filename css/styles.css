@@ -1,0 +1,67 @@
+.logo {
+  font-family: 'Bilbo Swash Caps', cursive; }
+
+.texto {
+  padding: 40px; }
+
+.cubitos1 {
+  background-image: url(../img/fondo1.jpg);
+  background-size: cover; }
+
+.cubitos2 {
+  background-image: url(../img/fondo2.jpg);
+  background-size: cover; }
+
+.cubitos3 {
+  background-image: url(../img/fondo3.jpg);
+  background-size: cover; }
+
+img {
+  width: 100px; }
+
+#body {
+  background-image: url(../img/image2.jpg);
+  background-size: cover; }
+
+#body-contacto {
+  background-image: url(../img/fondoindex.jpg);
+  background-size: cover; }
+
+#body-servicios {
+  background-image: url(../img/agustin-fernandez-m21YynrKdsw-unsplash.jpg);
+  background-size: cover; }
+
+#body-tienda {
+  background-image: url(../img/photo-1605497788044-5a32c7078486.avif);
+  background-size: cover; }
+
+#body-nosotros {
+  background-image: url(../img/imageoscurecida.jpg);
+  background-size: cover; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+/**************** ANIMACIONES *************/
+.sub-hover:hover {
+  border-bottom: 1px solid #fff; }
+
+.cards {
+  transition: ease .5s;
+  animation-name: animacion;
+  animation-duration: 1s; }
+  .cards:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.2);
+    transition: ease .5s; }
+
+@keyframes animacion {
+  0% {
+    right: 100%; }
+  100% {
+    right: 0%; } }
+
+.form {
+  animation-name: animacion;
+  animation-duration: 2s; }
