@@ -1,0 +1,5 @@
+@mixin animarcajas {
+    transition: ease .5s;
+    animation-name: animacion;
+    animation-duration: 1s;
+}

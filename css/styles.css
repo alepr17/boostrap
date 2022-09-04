@@ -1,8 +1,11 @@
-.logo {
+.logo, .texto {
   font-family: 'Bilbo Swash Caps', cursive; }
 
 .texto {
   padding: 40px; }
+  .texto p {
+    color: gold !important;
+    font-size: 20px; }
 
 .cubitos1 {
   background-image: url(../img/fondo1.jpg);
@@ -38,10 +41,6 @@ img {
 #body-nosotros {
   background-image: url(../img/imageoscurecida.jpg);
   background-size: cover; }
-
-a {
-  color: #000;
-  text-decoration: none; }
 
 /**************** ANIMACIONES *************/
 .sub-hover:hover {

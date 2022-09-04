@@ -1,11 +1,18 @@
-$backgroundcubierto: cover;
-
+@import "variables";
+@import "mapget";
+@import "mixin";
 
 .logo{
     font-family: 'Bilbo Swash Caps', cursive;
 }
 .texto{
     padding: 40px;
+    @extend .logo;
+
+    p{
+        color: map-get($estilo, color ) !important;
+        font-size: map-get($estilo, tamaño);
+    }
 }
 .cubitos1{
     background-image: url(../img/fondo1.jpg);
@@ -42,19 +49,16 @@ img{
     background-image: url(../img/imageoscurecida.jpg);
     background-size: $backgroundcubierto;
 }
-a{
-    color: #000;
-    text-decoration: none;
-}
+// a{
+//     @include $link
+// }
 /**************** ANIMACIONES *************/
 
 .sub-hover:hover{
     border-bottom: 1px solid #fff;
 }
 .cards{
-    transition: ease .5s;
-    animation-name: animacion;
-    animation-duration: 1s;
+    @include animarcajas;
     
     &:hover{
         cursor: pointer;
