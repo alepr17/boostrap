@@ -1,10 +1,10 @@
-.logo, .texto {
+.cursiva, .logo {
   font-family: 'Bilbo Swash Caps', cursive; }
 
 .texto {
   padding: 40px; }
   .texto p {
-    color: gold !important;
+    color: #efefef !important;
     font-size: 20px; }
 
 .cubitos1 {
@@ -64,3 +64,12 @@ img {
 .form {
   animation-name: animacion;
   animation-duration: 2s; }
+
+.imgcontacto {
+  width: 5%; }
+
+a {
+  text-decoration: none;
+  color: white; }
+  a:hover {
+    color: white; }

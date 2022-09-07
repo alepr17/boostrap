@@ -1,19 +1,21 @@
 @import "variables";
 @import "mapget";
 @import "mixin";
-
-.logo{
+.cursiva{
     font-family: 'Bilbo Swash Caps', cursive;
+}
+.logo{
+    @extend .cursiva
 }
 .texto{
     padding: 40px;
-    @extend .logo;
 
     p{
         color: map-get($estilo, color ) !important;
         font-size: map-get($estilo, tamaño);
     }
 }
+
 .cubitos1{
     background-image: url(../img/fondo1.jpg);
     background-size: $backgroundcubierto;
@@ -79,4 +81,16 @@ img{
 .form{
     animation-name: animacion;
     animation-duration: 2s;
+}
+.imgcontacto {
+    width: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+    &:hover{
+        color: white;
+    }
 }
