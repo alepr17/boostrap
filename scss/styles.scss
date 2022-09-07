@@ -59,8 +59,13 @@ img{
 .sub-hover:hover{
     border-bottom: 1px solid #fff;
 }
+.stretch{
+    display: flex;
+    align-items: stretch !important;
+}
 .cards{
     @include animarcajas;
+    min-height: 450px;
     
     &:hover{
         cursor: pointer;

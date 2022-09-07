@@ -46,10 +46,15 @@ img {
 .sub-hover:hover {
   border-bottom: 1px solid #fff; }
 
+.stretch {
+  display: flex;
+  align-items: stretch !important; }
+
 .cards {
   transition: ease .5s;
   animation-name: animacion;
-  animation-duration: 1s; }
+  animation-duration: 1s;
+  min-height: 450px; }
   .cards:hover {
     cursor: pointer;
     box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.2);
