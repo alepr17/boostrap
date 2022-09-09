@@ -2,10 +2,13 @@
   position: sticky; }
 
 * {
-  font-family: 'Rufina', serif; }
+  font-family: "Rufina", serif; }
 
 .cursiva, .logo {
-  font-family: 'Bilbo Swash Caps', cursive; }
+  font-family: "Bilbo Swash Caps", cursive; }
+
+.logo:hover {
+  color: #ceb98e !important; }
 
 .texto {
   padding: 40px; }
@@ -50,7 +53,8 @@ img {
 
 /**************** ANIMACIONES *************/
 .sub-hover:hover {
-  border-bottom: 1px solid #fff; }
+  border-bottom: 1px solid #ceb98e;
+  color: #ceb98e !important; }
 
 .stretch {
   display: flex;
@@ -64,7 +68,7 @@ img {
   .cards:hover {
     cursor: pointer;
     box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.2);
-    transition: ease .5s; }
+    transition: ease 0.5s; }
 
 @keyframes animacion {
   0% {

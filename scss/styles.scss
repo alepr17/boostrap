@@ -2,104 +2,109 @@
 @import "mapget";
 @import "mixin";
 @import "nav";
-*{
-    font-family: 'Rufina', serif;
+* {
+  font-family: "Rufina", serif;
 }
-.cursiva{
-    font-family: 'Bilbo Swash Caps', cursive;
+.cursiva {
+  font-family: "Bilbo Swash Caps", cursive;
 }
-.logo{
-    @extend .cursiva
+.logo {
+  @extend .cursiva;
+  &:hover {
+    color: #ceb98e !important;
+  }
 }
-.texto{
-    padding: 40px;
+.texto {
+  padding: 40px;
 
-    p{
-        color: map-get($estilo, color ) !important;
-        font-size: map-get($estilo, tamaño);
-    }
+  p {
+    color: map-get($estilo, color) !important;
+    font-size: map-get($estilo, tamaño);
+  }
 }
 
-.cubitos1{
-    background-image: url(../img/fondo1.jpg);
-    background-size: $backgroundcubierto;
+.cubitos1 {
+  background-image: url(../img/fondo1.jpg);
+  background-size: $backgroundcubierto;
 }
-.cubitos2{
-    background-image: url(../img/fondo2.jpg);
-    background-size: $backgroundcubierto;
+.cubitos2 {
+  background-image: url(../img/fondo2.jpg);
+  background-size: $backgroundcubierto;
 }
-.cubitos3{
-    background-image: url(../img/fondo3.jpg);
-    background-size: $backgroundcubierto;
+.cubitos3 {
+  background-image: url(../img/fondo3.jpg);
+  background-size: $backgroundcubierto;
 }
-img{
-    width: 100px;
+img {
+  width: 100px;
 }
-#body{
-    background-image: url(../img/image2.jpg);
-    background-size: $backgroundcubierto;
+#body {
+  background-image: url(../img/image2.jpg);
+  background-size: $backgroundcubierto;
 }
-#body-contacto{
-    background-image: url(../img/fondoindex.jpg);
-    background-size: $backgroundcubierto;
+#body-contacto {
+  background-image: url(../img/fondoindex.jpg);
+  background-size: $backgroundcubierto;
 }
-#body-servicios{
-    background-image: url(../img/agustin-fernandez-m21YynrKdsw-unsplash.jpg);
-    background-size: $backgroundcubierto;
+#body-servicios {
+  background-image: url(../img/agustin-fernandez-m21YynrKdsw-unsplash.jpg);
+  background-size: $backgroundcubierto;
 }
-#body-tienda{
-    background-image: url(../img/photo-1605497788044-5a32c7078486.avif);
-    background-size: $backgroundcubierto;
+#body-tienda {
+  background-image: url(../img/photo-1605497788044-5a32c7078486.avif);
+  background-size: $backgroundcubierto;
 }
-#body-nosotros{
-    background-image: url(../img/imageoscurecida.jpg);
-    background-size: $backgroundcubierto;
+#body-nosotros {
+  background-image: url(../img/imageoscurecida.jpg);
+  background-size: $backgroundcubierto;
 }
 // a{
 //     @include $link
 // }
 /**************** ANIMACIONES *************/
 
-.sub-hover:hover{
-    border-bottom: 1px solid #fff;
+.sub-hover {
+  &:hover {
+    border-bottom: 1px solid #ceb98e;
+    color: #ceb98e !important;
+  }
 }
-.stretch{
-    display: flex;
-    align-items: stretch !important;
+.stretch {
+  display: flex;
+  align-items: stretch !important;
 }
-.cards{
-    @include animarcajas;
-    min-height: 450px;
-    
-    &:hover{
-        cursor: pointer;
-        box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.2);
-        transition: ease .5s;
-    }
+.cards {
+  @include animarcajas;
+  min-height: 450px;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.2);
+    transition: ease 0.5s;
+  }
 }
 @keyframes animacion {
-  
-    0%{
-      right: 100%
-    }
-    100%{
-      right: 0%
-    }
+  0% {
+    right: 100%;
   }
+  100% {
+    right: 0%;
+  }
+}
 
-.form{
-    animation-name: animacion;
-    animation-duration: 2s;
+.form {
+  animation-name: animacion;
+  animation-duration: 2s;
 }
 .imgcontacto {
-    width: 5%;
+  width: 5%;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
     color: #fff;
-    
-    &:hover{
-        color: #fff;
-    }
+  }
 }
