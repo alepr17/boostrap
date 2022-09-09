@@ -1,6 +1,10 @@
 @import "variables";
 @import "mapget";
 @import "mixin";
+@import "nav";
+*{
+    font-family: 'Rufina', serif;
+}
 .cursiva{
     font-family: 'Bilbo Swash Caps', cursive;
 }
@@ -93,9 +97,9 @@ img{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #fff;
     
     &:hover{
-        color: white;
+        color: #fff;
     }
 }
