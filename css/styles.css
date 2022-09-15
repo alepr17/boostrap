@@ -16,6 +16,10 @@
     color: #efefef !important;
     font-size: 20px; }
 
+.titulos {
+  border-bottom: 2px solid #ceb98e;
+  text-shadow: 2px 2px 3px black; }
+
 .cubitos1 {
   background-image: url(../img/fondo1.jpg);
   background-size: cover; }
@@ -88,3 +92,14 @@ a {
   color: #fff; }
   a:hover {
     color: #fff; }
+
+.cajai div {
+  color: #fff;
+  display: flex;
+  align-items: center; }
+  .cajai div p span {
+    display: block; }
+
+.cajai .iconos {
+  width: 70px;
+  margin: 10% 10%; }

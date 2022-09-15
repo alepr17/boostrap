@@ -39,88 +39,98 @@
   </head>
 
   <body id="body-contacto">
-    <main class="main container-fluid pb-5">
-      <nav class="navbar navbar-expand-md navbar-dark pb-5">
-        <div class="container-fluid">
-          <a
-            class="navbar-brand text-light fs-1 mx-5 logo"
-            href="../index.html"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            >Rock 'n' beard</a
-          >
-          <button
-            class="navbar-toggler text-light"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a
-                class="nav-link text-light fs-5 sub-hover"
-                aria-current="page"
-                href="../index.html"
-                >Inicio</a
-              >
-              <a class="nav-link text-light fs-5 sub-hover" href="contacto.html"
-                >Contacto</a
-              >
-              <a
-                class="nav-link text-light fs-5 sub-hover"
-                href="servicios.html"
-                >Servicios</a
-              >
-              <a class="nav-link text-light fs-5 sub-hover" href="tienda.html"
-                >Tienda</a
-              >
-              <a class="nav-link text-light fs-5 sub-hover" href="nosotros.html"
-                >Nosotros</a
-              >
-            </div>
+    <nav class="navbar navbar-expand-md navbar-dark pb-5">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand text-light fs-1 mx-5 logo"
+          href="../index.html"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          >Rock 'n' beard</a
+        >
+        <button
+          class="navbar-toggler text-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link text-light fs-5 sub-hover"
+              aria-current="page"
+              href="../index.html"
+              >Inicio</a
+            >
+            <a class="nav-link text-light fs-5 sub-hover" href="contacto.html"
+              >Contacto</a
+            >
+            <a class="nav-link text-light fs-5 sub-hover" href="servicios.html"
+              >Servicios</a
+            >
+            <a class="nav-link text-light fs-5 sub-hover" href="tienda.html"
+              >Tienda</a
+            >
+            <a class="nav-link text-light fs-5 sub-hover" href="nosotros.html"
+              >Nosotros</a
+            >
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!--       
+    <!--       
 
      main      
 
      -->
-
-      <div
-        class="col-12 col-md-8 col-lg-6 fs-6 m-auto bg-secondary bg-opacity-25 texto"
-        data-aos="flip-up"
-      >
-        <h1 class="h2 mb-4 text-white text-center">Contactanos</h1>
-        <p class="text-center">
-          Via Whatsapp
-          <a
-            href="https://api.whatsapp.com/message/WRHAAN5VUIYRC1?autoload=1&app_absent=0"
-            target="_blank"
-            ><img src="../img/wsp.png" alt="Whatsapp" class="imgcontacto"
-          /></a>
-        </p>
-        <p class="text-center">
-          Via instagram
-          <a href="https://www.instagram.com/rocknbeardok/" target="_blank"
-            ><img src="../img/ig.png" alt="instagram" class="imgcontacto"
-          /></a>
-        </p>
+    <main class="main container-fluid pb-5">
+      <div data-aos="flip-up">
+        <h1 class="h2 mb-4 text-white text-center">
+          <span class="titulos">CONTACTANOS</span>
+        </h1>
       </div>
     </main>
 
     <!--
     CONTENIDO PRINCIPAL
  -->
-    <aside class="aside p-5 form" data-aos="zoom-in">
+    <aside class="row p-3 form aside" data-aos="zoom-in">
       <section
-        class="col-sm-8 col-md-6 col-lg-4 m-auto p-5 bg-secondary bg-opacity-25 text-light"
+        class="col-sm-10 col-md-10 col-lg-6 m-auto p-3 bg-opacity-25 text-light"
+      >
+        <div class="cajai">
+          <div>
+            <img src="../img/man-2.svg" alt="" class="iconos" />
+            <p>
+              Ubicados en el centro de Santa Lucia a escasas cuadras de la plaza
+              principal
+            </p>
+          </div>
+          <div>
+            <img src="../img/hairdresser-chair.svg" alt="" class="iconos" />
+            <p>
+              <span class="horarios">Lunes to Viernes: 9:00 AM a 6:00 PM</span>
+              <span class="horarios">Sabados: 9:00 AM a 5:00 PM</span>
+              <span class="horarios">Domingos: cerrado</span>
+            </p>
+          </div>
+          <div>
+            <img src="../img/scissors-2.svg" alt="" class="iconos" />
+            <p>
+              Direccion: Sarmiento 4500 (e) Santa Lucia Tel: 0800-333-7733
+              Email: info@bigote.com
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="col-sm-8 col-md-8 col-lg-6 m-auto p-5 bg-opacity-25 text-light"
       >
         <h2 class="mb-4 text-center">Dejanos tu consulta</h2>
         <div class="mb-3">
@@ -162,7 +172,9 @@
     PIE DE PAGINA
 -->
 
-    <footer class="bg-opacity-25 bg-dark p-2 d-flex justify-content-center fs-5">
+    <footer
+      class="bg-opacity-25 bg-dark p-2 d-flex justify-content-center fs-5"
+    >
       <p class="m-0 text-white">
         Copyright 2022
         <a href="https://www.instagram.com/alerodriguez017" target="_blank"
