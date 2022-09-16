@@ -101,5 +101,9 @@ a {
     display: block; }
 
 .cajai .iconos {
-  width: 70px;
+  width: 42px;
   margin: 10% 10%; }
+
+.icofooter {
+  width: 25px;
+  margin: 0 10px; }
